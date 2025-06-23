@@ -1,6 +1,6 @@
-def read_file_to_dict(files_name):
+def read_file_to_dict(filename):
 	ventas_dict = dict()
-	with open (files_name, "r") as file:
+	with open (filename, "r") as file:
 		linea = file.readline().strip()
 		ventas = linea.split("";"")
 
