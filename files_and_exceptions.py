@@ -1,7 +1,7 @@
 def read_file_to_dict(filename):
 	ventas_dict = dict()
-	with open (filename, "r") as file:
-		linea = file.readline().strip()
+	with open (filename, "r") as f:
+		linea = f.readline().strip()
 		ventas = linea.split("";"")
 
 		for venta in ventas:
