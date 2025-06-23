@@ -10,8 +10,8 @@ def read_file_to_dict(files_name):
 				valor = float(valor)
 				if producto not i nventas_dict:
 					ventas_dict[producto] = []
-					ventas_dict[producto].append(valor)
-					return ventas_dict
+				ventas_dict[producto].append(valor)
+	return ventas_dict
 
 def process_dict():
 	for producto in sorted(data.keys()):
